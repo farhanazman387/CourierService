@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62232472F54B9E0006F06D0 /* CourierServiceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */; };
+		C62232482F54B9E0006F06D0 /* CourierServiceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C622325E2F54BF29006F06D0 /* CourierServiceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */; };
+		C622325F2F54BF29006F06D0 /* CourierServiceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C62232392F54B95B006F06D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62231BD2F53DB05006F06D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C622322D2F54B95A006F06D0;
+			remoteInfo = CourierServiceCore;
+		};
+		C62232492F54B9E0006F06D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62231BD2F53DB05006F06D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C622322D2F54B95A006F06D0;
+			remoteInfo = CourierServiceCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C62231C32F53DB05006F06D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C622324B2F54B9E0006F06D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C62232482F54B9E0006F06D0 /* CourierServiceCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62232602F54BF29006F06D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C622325F2F54BF29006F06D0 /* CourierServiceCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C62231C52F53DB06006F06D0 /* CourierService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CourierService; sourceTree = BUILT_PRODUCTS_DIR; };
+		C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CourierServiceCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62232372F54B95B006F06D0 /* CourierServiceCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourierServiceCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C622323F2F54B95B006F06D0 /* Exceptions for "CourierServiceCore" folder in "CourierServiceCore" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Sources/CourierServiceCore/Models/Offer.swift,
+				Sources/CourierServiceCore/Models/Package.swift,
+				Sources/CourierServiceCore/Models/Shipment.swift,
+				Sources/CourierServiceCore/Models/Vehicle.swift,
+				Sources/CourierServiceCore/Services/CostCalc.swift,
+				Sources/CourierServiceCore/Services/DeliveryTimeCalc.swift,
+				Sources/CourierServiceCore/Services/OfferServices.swift,
+				Sources/CourierServiceCore/Services/ShipmentServices.swift,
+			);
+			publicHeaders = (
+				CourierServiceCore.h,
+			);
+			target = C622322D2F54B95A006F06D0 /* CourierServiceCore */;
+		};
+		C62232612F54C3EF006F06D0 /* Exceptions for "CourierServiceCore" folder in "CourierService" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Sources/CourierServiceCore/Models/Offer.swift,
+				Sources/CourierServiceCore/Models/Package.swift,
+				Sources/CourierServiceCore/Models/Shipment.swift,
+				Sources/CourierServiceCore/Models/Vehicle.swift,
+				Sources/CourierServiceCore/Services/CostCalc.swift,
+				Sources/CourierServiceCore/Services/DeliveryTimeCalc.swift,
+				Sources/CourierServiceCore/Services/OfferServices.swift,
+				Sources/CourierServiceCore/Services/ShipmentServices.swift,
+			);
+			target = C62231C42F53DB05006F06D0 /* CourierService */;
+		};
+		C62232632F54C4D7006F06D0 /* Exceptions for "CourierService" folder in "CourierServiceCoreTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.swift,
+			);
+			target = C62232362F54B95B006F06D0 /* CourierServiceCoreTests */;
+		};
+		C62232652F54C4ED006F06D0 /* Exceptions for "CourierServiceCore" folder in "CourierServiceCoreTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Sources/CourierServiceCore/Models/Offer.swift,
+				Sources/CourierServiceCore/Models/Package.swift,
+				Sources/CourierServiceCore/Models/Shipment.swift,
+				Sources/CourierServiceCore/Models/Vehicle.swift,
+				Sources/CourierServiceCore/Services/CostCalc.swift,
+				Sources/CourierServiceCore/Services/DeliveryTimeCalc.swift,
+				Sources/CourierServiceCore/Services/OfferServices.swift,
+				Sources/CourierServiceCore/Services/ShipmentServices.swift,
+			);
+			target = C62232362F54B95B006F06D0 /* CourierServiceCoreTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C62231C72F53DB06006F06D0 /* CourierService */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C62232632F54C4D7006F06D0 /* Exceptions for "CourierService" folder in "CourierServiceCoreTests" target */,
+			);
+			path = CourierService;
+			sourceTree = "<group>";
+		};
+		C622322F2F54B95A006F06D0 /* CourierServiceCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C62232612F54C3EF006F06D0 /* Exceptions for "CourierServiceCore" folder in "CourierService" target */,
+				C622323F2F54B95B006F06D0 /* Exceptions for "CourierServiceCore" folder in "CourierServiceCore" target */,
+				C62232652F54C4ED006F06D0 /* Exceptions for "CourierServiceCore" folder in "CourierServiceCoreTests" target */,
+			);
+			path = CourierServiceCore;
+			sourceTree = "<group>";
+		};
+		C622323B2F54B95B006F06D0 /* CourierServiceCoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CourierServiceCoreTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62231C22F53DB05006F06D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62232472F54B9E0006F06D0 /* CourierServiceCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C622322B2F54B95A006F06D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62232342F54B95B006F06D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C622325E2F54BF29006F06D0 /* CourierServiceCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C62231BC2F53DB05006F06D0 = {
+			isa = PBXGroup;
+			children = (
+				C62231C72F53DB06006F06D0 /* CourierService */,
+				C622322F2F54B95A006F06D0 /* CourierServiceCore */,
+				C622323B2F54B95B006F06D0 /* CourierServiceCoreTests */,
+				C62232462F54B9E0006F06D0 /* Frameworks */,
+				C62231C62F53DB06006F06D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C62231C62F53DB06006F06D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62231C52F53DB06006F06D0 /* CourierService */,
+				C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */,
+				C62232372F54B95B006F06D0 /* CourierServiceCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62232462F54B9E0006F06D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C62232292F54B95A006F06D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C62231C42F53DB05006F06D0 /* CourierService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62231CC2F53DB06006F06D0 /* Build configuration list for PBXNativeTarget "CourierService" */;
+			buildPhases = (
+				C62231C12F53DB05006F06D0 /* Sources */,
+				C62231C22F53DB05006F06D0 /* Frameworks */,
+				C62231C32F53DB05006F06D0 /* CopyFiles */,
+				C622324B2F54B9E0006F06D0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C622324A2F54B9E0006F06D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C62231C72F53DB06006F06D0 /* CourierService */,
+			);
+			name = CourierService;
+			packageProductDependencies = (
+			);
+			productName = CourierService;
+			productReference = C62231C52F53DB06006F06D0 /* CourierService */;
+			productType = "com.apple.product-type.tool";
+		};
+		C622322D2F54B95A006F06D0 /* CourierServiceCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62232402F54B95B006F06D0 /* Build configuration list for PBXNativeTarget "CourierServiceCore" */;
+			buildPhases = (
+				C62232292F54B95A006F06D0 /* Headers */,
+				C622322A2F54B95A006F06D0 /* Sources */,
+				C622322B2F54B95A006F06D0 /* Frameworks */,
+				C622322C2F54B95A006F06D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C622322F2F54B95A006F06D0 /* CourierServiceCore */,
+			);
+			name = CourierServiceCore;
+			packageProductDependencies = (
+			);
+			productName = CourierServiceCore;
+			productReference = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C62232362F54B95B006F06D0 /* CourierServiceCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62232432F54B95B006F06D0 /* Build configuration list for PBXNativeTarget "CourierServiceCoreTests" */;
+			buildPhases = (
+				C62232332F54B95B006F06D0 /* Sources */,
+				C62232342F54B95B006F06D0 /* Frameworks */,
+				C62232352F54B95B006F06D0 /* Resources */,
+				C62232602F54BF29006F06D0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C622323A2F54B95B006F06D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C622323B2F54B95B006F06D0 /* CourierServiceCoreTests */,
+			);
+			name = CourierServiceCoreTests;
+			packageProductDependencies = (
+			);
+			productName = CourierServiceCoreTests;
+			productReference = C62232372F54B95B006F06D0 /* CourierServiceCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62231BD2F53DB05006F06D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C62231C42F53DB05006F06D0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C622322D2F54B95A006F06D0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C62232362F54B95B006F06D0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = C62231C02F53DB05006F06D0 /* Build configuration list for PBXProject "CourierService" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62231BC2F53DB05006F06D0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C62231C62F53DB06006F06D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62231C42F53DB05006F06D0 /* CourierService */,
+				C622322D2F54B95A006F06D0 /* CourierServiceCore */,
+				C62232362F54B95B006F06D0 /* CourierServiceCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C622322C2F54B95A006F06D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62232352F54B95B006F06D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62231C12F53DB05006F06D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C622322A2F54B95A006F06D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62232332F54B95B006F06D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C622323A2F54B95B006F06D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C622322D2F54B95A006F06D0 /* CourierServiceCore */;
+			targetProxy = C62232392F54B95B006F06D0 /* PBXContainerItemProxy */;
+		};
+		C622324A2F54B9E0006F06D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C622322D2F54B95A006F06D0 /* CourierServiceCore */;
+			targetProxy = C62232492F54B9E0006F06D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C62231CA2F53DB06006F06D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C62231CB2F53DB06006F06D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C62231CD2F53DB06006F06D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGPJ54G55T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C62231CE2F53DB06006F06D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGPJ54G55T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C62232412F54B95B006F06D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NGPJ54G55T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreverestengineering.CourierServiceCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C62232422F54B95B006F06D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NGPJ54G55T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreverestengineering.CourierServiceCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C62232442F54B95B006F06D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGPJ54G55T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreverestengineering.CourierServiceCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C62232452F54B95B006F06D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGPJ54G55T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreverestengineering.CourierServiceCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62231C02F53DB05006F06D0 /* Build configuration list for PBXProject "CourierService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62231CA2F53DB06006F06D0 /* Debug */,
+				C62231CB2F53DB06006F06D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62231CC2F53DB06006F06D0 /* Build configuration list for PBXNativeTarget "CourierService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62231CD2F53DB06006F06D0 /* Debug */,
+				C62231CE2F53DB06006F06D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62232402F54B95B006F06D0 /* Build configuration list for PBXNativeTarget "CourierServiceCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62232412F54B95B006F06D0 /* Debug */,
+				C62232422F54B95B006F06D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62232432F54B95B006F06D0 /* Build configuration list for PBXNativeTarget "CourierServiceCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62232442F54B95B006F06D0 /* Debug */,
+				C62232452F54B95B006F06D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62231BD2F53DB05006F06D0 /* Project object */;
+}
