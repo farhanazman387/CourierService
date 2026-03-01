@@ -1,10 +1,12 @@
+important notes
+
 priority orders
 1. More packages
 2. Heavier weight
 3. Shorter distance
 
 deliveryTime = distance / speed
-
+==========================================================================================================================================================================
 file structure
 
 CourierService/                      ← Root folder / Xcode project
@@ -36,33 +38,20 @@ CourierService/                      ← Root folder / Xcode project
 
 
 Explanation
-
-CLI Target – CourierService
-
+1. CLI Target – CourierService
 Contains only main.swift
-
 Handles user input/output
-
 Imports the framework: import CourierServiceCore
 
-Framework – CourierServiceCore
+2. Framework – CourierServiceCore
+  a) Models/ folder → all data structures:
+  - Package.swift, Vehicle.swift, Shipment.swift, Offer.swift
+  b) Services/ folder → all calculation and business logic:
+  - OfferServices.swift, CostCalc.swift, ShipmentServices.swift, DeliveryTimeCalc.swift
+  Everything public so CLI and tests can access it
+using framework because CLI cannot be tested due to it is not recognise as a framework
+first framework creation
 
-Models/ folder → all data structures:
-
-Package.swift, Vehicle.swift, Shipment.swift, Offer.swift
-
-Services/ folder → all calculation and business logic:
-
-OfferServices.swift, CostCalc.swift, ShipmentServices.swift, DeliveryTimeCalc.swift
-
-Everything public so CLI and tests can access it
-
-Tests – CourierServiceCoreTests
-
+3. Tests – CourierServiceCoreTests
 Imports CourierServiceCore
-
 Tests logic in Services and Models independently of CLI
-
-Resources/ (optional)
-
-Only if the framework needs static a
