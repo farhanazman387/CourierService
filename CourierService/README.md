@@ -1,14 +1,36 @@
-important notes
+# CourierService
 
-priority orders
-1. More packages
-2. Heavier weight
-3. Shorter distance
+Courier Service cost and delivery time calculator built using Swift.
 
-deliveryTime = distance / speed
+## Features
+
+- Calculates delivery cost with offers
+- Calculates delivery time with vehicle constraints
+- Modular architecture using Framework
+- Unit tested with XCTest
+
+## Architecture
+
+CourierService (CLI)
+CourierServiceCore (Framework)
+CourierServiceCoreTests (Unit Tests)
+
+## How to Run
+
+Open CourierService.xcodeproj in Xcode.
+
+Run:
+
+Product → Run
+
+## How to Test
+
+Run:
+
+Product → Test
 
 file structure
-==========================================================================================================================================================================
+====================================================================================================
 
 CourierService/                      ← Root folder / Xcode project
 │
