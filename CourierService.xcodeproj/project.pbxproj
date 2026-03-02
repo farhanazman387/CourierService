@@ -11,6 +11,7 @@
 		C62232482F54B9E0006F06D0 /* CourierServiceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C622325E2F54BF29006F06D0 /* CourierServiceCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */; };
 		C622325F2F54BF29006F06D0 /* CourierServiceCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C62232702F551140006F06D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C622326F2F551140006F06D0 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		C62231C52F53DB06006F06D0 /* CourierService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CourierService; sourceTree = BUILT_PRODUCTS_DIR; };
 		C622322E2F54B95A006F06D0 /* CourierServiceCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CourierServiceCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62232372F54B95B006F06D0 /* CourierServiceCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourierServiceCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C622326F2F551140006F06D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C62232712F55166C006F06D0 /* CourierServiceCore.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CourierServiceCore.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -171,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62232702F551140006F06D0 /* XCTest.framework in Frameworks */,
 				C622325E2F54BF29006F06D0 /* CourierServiceCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +185,7 @@
 		C62231BC2F53DB05006F06D0 = {
 			isa = PBXGroup;
 			children = (
+				C62232712F55166C006F06D0 /* CourierServiceCore.xctestplan */,
 				C62231C72F53DB06006F06D0 /* CourierService */,
 				C622322F2F54B95A006F06D0 /* CourierServiceCore */,
 				C622323B2F54B95B006F06D0 /* CourierServiceCoreTests */,
@@ -202,6 +207,7 @@
 		C62232462F54B9E0006F06D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C622326F2F551140006F06D0 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -512,6 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGPJ54G55T;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreverestengineering.CourierService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -524,6 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGPJ54G55T;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreverestengineering.CourierService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

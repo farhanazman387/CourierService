@@ -21,11 +21,15 @@
 		</dict>
 		<key>CourierServiceTest.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 		<key>CourierServiceTestTests.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
@@ -33,6 +37,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C62231C42F53DB05006F06D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C622322D2F54B95A006F06D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C62232362F54B95B006F06D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

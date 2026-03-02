@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "38EFD3E4-4666-427C-B06F-9F6308CDBA5E",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:CourierService.xcodeproj",
+          "identifier" : "C622322D2F54B95A006F06D0",
+          "name" : "CourierServiceCore"
+        }
+      ]
+    },
+    "userAttachmentLifetime" : "keepAlways"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CourierService.xcodeproj",
+        "identifier" : "C62232362F54B95B006F06D0",
+        "name" : "CourierServiceCoreTests"
+      }
+    }
+  ],
+  "version" : 1
+}

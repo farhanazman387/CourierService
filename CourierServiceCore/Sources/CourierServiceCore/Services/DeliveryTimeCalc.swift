@@ -31,7 +31,7 @@ final class DeliveryTimeCalc {
             vehiclesQueue.sort { $0.availableAt < $1.availableAt }
             
             // Remove the next available vehicle
-            var vehicle = vehiclesQueue.removeFirst()
+            let vehicle = vehiclesQueue.removeFirst()
             
             // Get optimal shipment
             guard let shipment = shipmentService.createOptimalShipment(
